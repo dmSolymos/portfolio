@@ -1,0 +1,19 @@
+#skills {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+#skills h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  font-size: 18px;
+  margin-bottom: 8px;
+}

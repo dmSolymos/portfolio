@@ -1,0 +1,57 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.padding-horizontal {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.primary-color {
+  color: #007bff;
+}
+
+.secondary-color {
+  color: #6c757d;
+}
+
+

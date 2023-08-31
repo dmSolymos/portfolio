@@ -1,0 +1,53 @@
+#about-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+  padding: 20px
+}
+
+.words {
+  flex: 1;
+  padding-right: 20px;
+}
+
+h2#about {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.school h1,
+.work h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.etc {
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.4;
+}
+
+.me {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #39bda7;
+  transition: transform 0.3s ease-in-out;
+}
+
+.me:hover {
+  transform: scale(1.05);
+}
